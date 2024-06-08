@@ -1,0 +1,100 @@
+@import url("https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css");
+
+#header {
+  display: flex;
+  position: relative;
+}
+
+.cookieh1 {
+  display: flex;
+  position: absolute;
+  justify-content: flex-end;
+  font-size: 45px;
+  right: 9rem;
+  top: 0.5rem;
+}
+
+#cookie-count-number {
+  display: flex;
+  position: absolute;
+  width: 25vw;
+  top: 6rem;
+  left: 35%;
+  font-size: 30px;
+  background-color: red;
+  border: solid 2px black;
+}
+
+#cookie-per-second {
+  display: flex;
+  position: absolute;
+  width: 25vw;
+  height: 5vh;
+  top: 9rem;
+  left: 35%;
+  background-color: blue;
+  border: solid 2px black;
+  font-size: 30px;
+}
+
+#shop {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  width: 35rem;
+  top: 15rem;
+  left: 5rem;
+  background-color: yellow;
+  border: solid 2px black;
+}
+
+#shop scroll {
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.shop-name {
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+#shop h1 {
+  font-size: 20px;
+}
+
+#shop button {
+  width: 60px;
+}
+
+#cookie-clicker {
+  display: flex;
+  position: relative;
+  justify-content: flex-end;
+  right: 5rem;
+  top: 25rem;
+}
+
+.start-button {
+  height: 500px;
+  width: 500px;
+  border-radius: 50%;
+  display: flex;
+  position: absolute;
+  right: 10rem;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.copyright {
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  color: red;
+  display: flex;
+  justify-content: center;
+}
