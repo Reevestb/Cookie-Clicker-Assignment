@@ -399,13 +399,13 @@ screens  */
     font-size: 20px;
   }
   .start-button {
-    height: 500px;
-    width: 500px;
+    height: 450px;
+    width: 450px;
     border-radius: 50%;
     border: 1px solid black;
     display: flex;
     position: absolute;
-    left: 60%;
+    left: 72%;
     bottom: -25rem;
   }
 
