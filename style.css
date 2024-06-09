@@ -318,3 +318,102 @@ screens  */
     justify-content: center;
   }
 }
+
+/* for 
+laptop 
+screens  */
+
+@media (min-width: 1000px) {
+  .cookieh1 {
+    display: flex;
+    position: absolute;
+    font-size: 40px;
+    top: 0.5rem;
+  }
+
+  #cookie-count-number {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    width: 50vw;
+    height: 5.5vh;
+    top: 5rem;
+    left: 20%;
+    font-size: 30px;
+  }
+
+  #cookie-per-second {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    width: 50vw;
+    height: 5vh;
+    top: 8rem;
+    left: 20%;
+    color: black;
+    background-color: bisque;
+    border: solid 4px white;
+    font-size: 30px;
+  }
+
+  .Reset {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 1px solid transparent;
+    display: flex;
+    position: relative;
+    left: 72%;
+    top: 5rem;
+  }
+
+  #shop {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    width: 30rem;
+    height: 40rem;
+    top: 14rem;
+    left: 10%;
+    background-color: bisque;
+    border: solid 3px white;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+
+  .shop-name {
+    font-size: 40px;
+  }
+
+  #shop button {
+    width: 60px;
+    background-color: white;
+  }
+
+  #shop h2 {
+    font-size: 25px;
+    background-color: bisque;
+  }
+
+  #shop p {
+    font-size: 20px;
+  }
+  .start-button {
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    border: 1px solid black;
+    display: flex;
+    position: absolute;
+    left: 60%;
+    bottom: -25rem;
+  }
+
+  .copyright {
+    font-size: 15px;
+    font-family: "Times New Roman", Times, serif;
+    color: chocolate;
+    display: flex;
+    justify-content: center;
+  }
+}
